@@ -1,0 +1,135 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+.jumbotron{
+    background-color: #007bff;
+    color: white;
+}
+    .jumbotron .btn {
+        background-color: white;
+        color: #007bff;
+    }
+        .jumbotron .btn:hover {
+            background-color: #e9ecef; /* Bootstrap light color */
+            color: #007bff;
+        }
+#features {
+    background-color: #f8f9fa; /* Bootstrap light color */
+    padding: 50px 0;
+}
+    #features .card {
+        border: none;
+        background-color: #ffffff;
+    }
+    #features .card-title {
+        color: #007bff; /* Bootstrap primary color */
+    }
+#pricing {
+    background-color: #ffff;
+    padding: 30px 0; /* Reduced padding */
+    font-size: 0.9rem; /* Smaller font size */
+}
+    #pricing .card.free {
+        border: 1px solid #28a745;
+    }
+
+    #pricing .card-title {
+        color: #fff; /* Bootstrap success color */
+        font-size: 1.2rem; /* Smaller font size for titles */
+    }
+
+#contact {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+    #contact .btn {
+        background-color: #007bff;
+        color: white;
+    }
+
+        #contact .btn:hover {
+            background-color: #0056b3; /* Bootstrap dark blue color */
+            color: white;
+        }
+
+/* Define a CSS class for images with fixed width and height */
+.fixed-image {
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+}
+
+
+
+    a .navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+  color: #007BFF;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}

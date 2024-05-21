@@ -1,0 +1,149 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@* Views/Home/Index.cshtml *@
+
+    
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pricing">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-primary text-white" href="/Account/Login">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1 class="display-4 placeholder-glow">Welcome to Budget Manager.</h1>
+            <p class="lead">Take Control of Your Finances</p>
+            <p class="lead">Track your spending, set budgets, and achieve your financial goals with our easy-to-use app.</p>
+            <a href="/Account/Register" class="btn btn-primary btn-lg">Get Started</a>
+        </div>
+    </header>
+
+    <section id="features" class="container text-center my-5">
+        <h2 class="display-4 animate__animated animate__bounceIn">Features</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card" aria-hidden="true"></div>
+                <img src="~/images/expen.jpeg" class="card-img-top fixed-image" alt="Expense Tracking">
+                <div class="card-body"></div>
+                <h3 class="card-title placeholder-glow">
+                    <span class="placeholder col-6"></span>Expense Tracking</h3>
+                <p class="card-text placeholder-glow ">
+                    <span class="placeholder col-7"></span>Automatically categorize and track your expenses.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm"></div>
+                <img src="~/images/budg.jpeg" class="card-img-top fixed-image" alt="Budget Planning">
+                <div class="card-body"></div>
+                <h3 class="card-title">Budget Management</h3>
+                <p class="card-text">Set budgets and monitor your progress.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm"></div>
+                <img src="~/images/sav.jpeg" class="card-img-top fixed-image" alt="Saving Goals">
+                <div class="card-body"></div>
+                <h3 class="card-title">Savings Goals</h3>
+                <p class="card-text">Define and track your savings goals effortlessly.</p>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="~/images/fin.jpeg" class="card-img-top fixed-image" alt="Financial Reports">
+                    <div class="card-body">
+                        <h3 class="card-title">Financial Reports</h3>
+                        <p class="card-text">Generate detailed reports to understand your spending habits.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="bg-light text-center py-5">
+        <div class="container">
+            <h2>Pricing</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm  card text-white bg-secondary mb-3" >
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">Free</h4>
+                        </div>
+                        <div class="card mb-4 shadow-sm pricing-card free"></div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Basic expense tracking</li>
+                                <li>Basic budget management</li>
+                                <li>Email support</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-dark">Sign up for free</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm card text-white bg-dark mb-3" ">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">Pro</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">$9.99 <small class="text-muted">/ mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Advanced expense tracking</li>
+                                <li>Advanced budget management</li>
+                                <li>Priority email support</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <div class="card-header">
+                            <h4 class="my-0 font-weight-normal">Enterprise</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title text-black-50">$49.99 <small class="text-muted">/ mo</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>All features</li>
+                                <li>Custom solutions</li>
+                                <li>Dedicated support</li>
+                            </ul>
+                            <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container text-center my-5">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or need support, feel free to reach out to us.</p>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6 ">
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-group col-md-6">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
+
